@@ -1,0 +1,59 @@
+INFO  | 2020-12-07 20:12:30 | [main] presentation.OnlineAdvertiseControllerTest (OnlineAdvertiseControllerTest.java:35) - [START] testAdvertiseSearchFailed()
+INFO  | 2020-12-07 20:12:30 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:18) - Finding advertise for id: -2
+ERROR | 2020-12-07 20:12:30 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 283
+ERROR | 2020-12-07 20:12:30 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:26) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 20:12:30 | [main] presentation.OnlineAdvertiseControllerTest (OnlineAdvertiseControllerTest.java:27) - [START] testAdvertiseSearchSuccess()
+INFO  | 2020-12-07 20:12:30 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:18) - Finding advertise for id: 101
+ERROR | 2020-12-07 20:12:30 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 283
+ERROR | 2020-12-07 20:12:30 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:26) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 20:13:22 | [main] presentation.OnlineAdvertiseControllerTest (OnlineAdvertiseControllerTest.java:27) - [START] testAdvertiseSearchSuccess()
+INFO  | 2020-12-07 20:13:22 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:18) - Finding advertise for id: 101
+ERROR | 2020-12-07 20:13:22 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 283
+ERROR | 2020-12-07 20:13:22 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:26) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 20:13:22 | [main] presentation.OnlineAdvertiseControllerTest (OnlineAdvertiseControllerTest.java:35) - [START] testAdvertiseSearchFailed()
+INFO  | 2020-12-07 20:13:22 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:18) - Finding advertise for id: -2
+ERROR | 2020-12-07 20:13:22 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 283
+ERROR | 2020-12-07 20:13:22 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:26) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 20:19:23 | [main] presentation.OnlineAdvertiseControllerTest (OnlineAdvertiseControllerTest.java:27) - [START] testAdvertiseSearchSuccess()
+INFO  | 2020-12-07 20:19:23 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:18) - Finding advertise for id: 101
+ERROR | 2020-12-07 20:19:23 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 283
+ERROR | 2020-12-07 20:19:23 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:26) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 20:19:23 | [main] presentation.OnlineAdvertiseControllerTest (OnlineAdvertiseControllerTest.java:35) - [START] testAdvertiseSearchFailed()
+INFO  | 2020-12-07 20:19:23 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:18) - Finding advertise for id: -2
+ERROR | 2020-12-07 20:19:23 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 283
+ERROR | 2020-12-07 20:19:23 | [main] presentation.OnlineAdvertiseController (OnlineAdvertiseController.java:26) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 21:17:59 | [main] presentation.OnlineAdvertisementControllerTest (OnlineAdvertisementControllerTest.java:27) - [START] testItemSearchSuccess()
+INFO  | 2020-12-07 21:17:59 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:21) - Finding item for id: 1
+ERROR | 2020-12-07 21:17:59 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 239
+ERROR | 2020-12-07 21:18:00 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:27) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 21:18:00 | [main] presentation.OnlineAdvertisementControllerTest (OnlineAdvertisementControllerTest.java:34) - [START] testItemSearchFailed()
+INFO  | 2020-12-07 21:18:00 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:21) - Finding item for id: -2
+ERROR | 2020-12-07 21:18:00 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 239
+ERROR | 2020-12-07 21:18:00 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:27) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 21:25:03 | [main] presentation.OnlineAdvertisementControllerTest (OnlineAdvertisementControllerTest.java:34) - [START] testAdvertiseSearchFailed()
+INFO  | 2020-12-07 21:25:03 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:21) - Finding item for id: -2
+ERROR | 2020-12-07 21:25:03 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 239
+ERROR | 2020-12-07 21:25:03 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:27) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 21:25:03 | [main] presentation.OnlineAdvertisementControllerTest (OnlineAdvertisementControllerTest.java:27) - [START] testAdvertiseSearchSuccess()
+INFO  | 2020-12-07 21:25:03 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:21) - Finding item for id: 1
+ERROR | 2020-12-07 21:25:03 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - ERROR: relation "advertise" does not exist
+  Position: 239
+ERROR | 2020-12-07 21:25:03 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:27) - AdvertiseNotFoundException: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+INFO  | 2020-12-07 22:24:13 | [main] presentation.OnlineAdvertisementControllerTest (OnlineAdvertisementControllerTest.java:27) - [START] testAdvertiseSearchSuccess()
+INFO  | 2020-12-07 22:24:13 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:21) - Finding advertise for id: 1
+INFO  | 2020-12-07 22:24:13 | [main] dao.AdvertiseDAOImpl (AdvertiseDAOImpl.java:25) - Database returned AdvertiseEntity: Item [id=1, title=Table, price=499.0]
+INFO  | 2020-12-07 22:24:13 | [main] service.AdvertiseServiceImpl (AdvertiseServiceImpl.java:21) - AdvertiseEntity: Item [id=1, title=Table, price=499.0]
+INFO  | 2020-12-07 22:24:13 | [main] presentation.OnlineAdvertisementControllerTest (OnlineAdvertisementControllerTest.java:29) - [END] testAdvertiseSearchSuccess()
+INFO  | 2020-12-07 22:24:13 | [main] presentation.OnlineAdvertisementControllerTest (OnlineAdvertisementControllerTest.java:34) - [START] testAdvertiseSearchFailed()
+INFO  | 2020-12-07 22:24:13 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:21) - Finding advertise for id: -2
+INFO  | 2020-12-07 22:24:13 | [main] dao.AdvertiseDAOImpl (AdvertiseDAOImpl.java:25) - Database returned AdvertiseEntity: null
+ERROR | 2020-12-07 22:24:13 | [main] presentation.OnlineAdvertisementController (OnlineAdvertisementController.java:27) - AdvertiseNotFoundException: Advertise not found AdvertiseId: -2
